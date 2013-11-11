@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 				tvAmp.setText("" + mMeter.getAmplitude());
 				tvAmpEMA.setText("" + mMeter.getAmplitudeEMA());
 				Log.d(TAG,"::::::" + mMeter.getAmplitudeEMA());
-				if(mMeter.getAmplitude() > 0.5 || mMeter.getAmplitudeEMA() > 0.5){
+				if(mMeter.getAmplitude() > 0.7 || mMeter.getAmplitudeEMA() > 0.7){
 //					Log.d(TAG, ":::::::" +Color.RED);
 					rlBack.setBackgroundColor(Color.RED);
 				}
