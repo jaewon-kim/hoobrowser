@@ -7,10 +7,6 @@
 
 .metadata/.plugins/org.eclipse.cdt.core/.log
 
-*.c
-
-*.cpp
-
 .metadata/.plugins/org.eclipse.core.resources/.history/66/c08c7ec79c4a001313f9b32a4cf96e4e
 
 *.index
@@ -34,3 +30,7 @@
 .metadata/version.ini
 
 SoundChecker/bin/jarlist.cache
+
+.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+
+.metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
